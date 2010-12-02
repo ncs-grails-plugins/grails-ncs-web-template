@@ -1,0 +1,32 @@
+/* UNIVERSITY OF MINNESOTA WEB TEMPLATE RESET STYLESHEET */
+/* AUGUST 2009 : UNIVERSITY RELATIONS */
+/* v4.090901  */
+
+/* DO NOT MODIFY */
+/* RESET */
+html {background-color:#FFFFFF;color:#000000;}
+body,div,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,th,td {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+
+/* FONTS */
+body {font:13px/1.231 arial,helvetica,clean,sans-serif;}
+table {font-size:inherit;font:100%;}
+th {font-style:normal;font-weight:normal;text-align:left;}
+code {font-family:monospace;line-height:100%;}
+input, textarea, select, option {font-family:arial,helvetica,clean,sans-serif;font-size:inherit;font-weight:inherit; border-style: none;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+em {font-style:italic;font-weight:normal;}
+strong {font-style:normal;font-weight:bold;}
+address,caption,cite,code,dfn,th,var {font-style:normal;font-weight:normal;}
+
+/* FLOATS */
+.left {float:left;}
+.right {float:right;}
+.clearabove {line-height:0;height:0;font-size:0;clear:both;} /* Use on a clearing element following a float */
+
+/* HIDE */
+.none {display:none;}
+.hidden {visibility:hidden;overflow:hidden;width:0;height:0;}
