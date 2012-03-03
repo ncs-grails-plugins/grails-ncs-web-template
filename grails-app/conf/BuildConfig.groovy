@@ -17,6 +17,16 @@ grails.project.dependency.resolution = {
         // excludes 'ehcache'
     }
     log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
+    repositories {
+        grailsPlugins()
+        grailsHome()
+        grailsCentral()
+
+        mavenRepo "http://artifact.ncs.umn.edu/plugins-release"
+    }
+    dependencies {
+        // runtime 'mysql:mysql-connector-java:5.1.10'
+    }
 }
 codenarc.reports = {
 	JenkinsXmlReport('xml') {
