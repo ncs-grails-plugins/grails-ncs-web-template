@@ -30,7 +30,6 @@ ul.dd_menu { background-image: url( ${resource(dir:'images',plugin:'ncs-web-temp
 .menuButton a.home {background-image: url( ${resource(dir:'images',plugin:'ncs-web-template',file:'house.png')} );}
 .menuButton a.list {background-image: url( ${resource(dir:'images',plugin:'ncs-web-template',file:'database_table.png')} );}
 .menuButton a.create {background-image: url( ${resource(dir:'images',plugin:'ncs-web-template',file:'database_add.png')} );}
-.menuButton a.logout {background-image: url( ${resource(dir:'images',plugin:'ncs-web-template',file:'session_logout.png')} );}
 .message {background-image: url( ${resource(dir:'images',plugin:'ncs-web-template',file:'information.png')} );}
 div.errors li {background-image: url( ${resource(dir:'images',plugin:'ncs-web-template',file:'exclamation.png')} );}
 th {background-image: url( ${resource(dir:'images',plugin:'ncs-web-template',file:'shadow.jpg')} );}
